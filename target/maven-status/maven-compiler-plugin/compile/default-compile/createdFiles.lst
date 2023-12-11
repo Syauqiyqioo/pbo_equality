@@ -1,0 +1,15 @@
+main\MenuUserController.class
+main\LoginController.class
+main\PrimaryController.class
+module-info.class
+main\DAO\UserDAO.class
+main\MenuAdminController.class
+main\DAO\CoachDAO.class
+main\LoginCoachController.class
+main\MenuCoachController.class
+main\java\User.class
+main\SignUpUserController.class
+main\App.class
+main\java\Person.class
+main\LoginMenuController.class
+main\java\Coach.class

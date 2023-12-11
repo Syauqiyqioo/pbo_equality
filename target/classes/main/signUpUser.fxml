@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.SignUpUserController">
+    <stylesheets>
+        <URL value="@/styles/signupuser.css" />
+    </stylesheets>
+   <children>
+      <Text layoutX="109.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nama">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="105.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="gender" wrappingWidth="76.744140625">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="105.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="usia">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="109.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="password">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nama" layoutX="277.0" layoutY="83.0" />
+      <TextField fx:id="gender" layoutX="277.0" layoutY="129.0" />
+      <TextField fx:id="usia" layoutX="277.0" layoutY="179.0" />
+      <TextField fx:id="password" layoutX="277.0" layoutY="229.0" />
+      <Button layoutX="251.0" layoutY="308.0" mnemonicParsing="false" onMouseClicked="#pindahHome" text="Sign In">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="520.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#home" text="homepage" />
+   </children>
+</AnchorPane>
